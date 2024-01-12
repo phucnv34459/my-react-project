@@ -1,14 +1,15 @@
 import Menu from "./Menu";
-import Banner from "./banner";
+
 import Sidebar from "./sidebar";
 import Cc from "./cc";
+import Bia from "./Bia";
 
 
 const Header = () => {
     return (
         <header>
             <Menu />
-            <Banner/>
+            <Bia/>
             <Sidebar/>
             <Cc/>
             
