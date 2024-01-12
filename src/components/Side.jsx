@@ -1,6 +1,5 @@
 
-
-const Sidebar = () => {
+const Side = () => {
   return (
     <div style={{display:"flex",marginLeft:"90px"}}>
       <a style={{textDecoration:"none",marginLeft:"130px"}} href="#"><i><h1>Google</h1></i></a>
@@ -12,4 +11,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Side

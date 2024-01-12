@@ -1,8 +1,9 @@
 import Menu from "./Menu";
 
-import Sidebar from "./sidebar";
+
 import Cc from "./cc";
 import Bia from "./Bia";
+import Side from "./Side";
 
 
 const Header = () => {
@@ -10,7 +11,7 @@ const Header = () => {
         <header>
             <Menu />
             <Bia/>
-            <Sidebar/>
+            <Side/>
             <Cc/>
             
         </header>
